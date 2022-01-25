@@ -4,7 +4,7 @@ import * as dat from 'dat.gui'
 
 //Loader
 const textureLoader = new THREE.TextureLoader();
-const normalTexture = textureLoader.load("/textures/height.jpg");
+const normalTexture = textureLoader.load("/height.jpg");
 
 // Debug
 const gui = new dat.GUI()
